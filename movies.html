@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>365Entertainment</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/brands.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="365Entertainment.css" />
+  </head>
+  <body>
+  
+      <header>
+        <a href="index.html" class="logo"><img src="logo.jpg" alt="" /></a>
+
+         <nav class="navigation-menu">
+          
+          <a href="https://www.imdb.com/">Movies</a>
+          <a href="#">TV-Series</a>
+          <a href="#">Audio</a>
+        </nav>
+
+        <div class="bar"></div>
+      </header>
+
+      <div class="content">
+        <div class="slideshow-container">
+          <div class="slides">
+            <img src="movie1.jpg" alt="hero carousel" />
+          </div>
+
+          <div class="slides">
+            <img src="movie2.jpg" alt="hero carousel" />
+          </div>
+
+          <div class="slides">
+            <img src="movie3.jpg" alt="hero carousel" />
+          </div>
+
+          <div class="slides">
+            <img src="movie4.jpg" alt="hero carousel" />
+          </div>
+
+          <div class="slides">
+            <img src="Bhuj movie.webp" alt="hero carousel" />
+          </div>
+
+          <a class="prev" onclick="controller(-1)">&#10094;</a>
+          <a class="next" onclick="controller(1)">&#10095;</a>
+        </div>
+      </div>
+
+        <!-- Popular in Action Section -->
+
+        <div id="media-carousel-container">
+        <div id="media-holder-action">
+          <div class="popular-heading">
+            <h2>Popular in Action</h2>
+          </div>
+
+          <div id="image-container-action">
+            <div class="movies-action">
+            <div class="media-carousel">
+              <img src="M1.jpg" alt="hero carousel" width="200" height="250" />
+              <div class="overlay"><b class="movie-title">Suryavanshi</b><br />Indian action drama film.</div>
+              </div>
+              <div class="media-carousel">
+              <img src="M2.jpg" alt="hero carousel" width="200" height="250" />
+              <div class="overlay"><b class="movie-title">Runway 34</b><br />Drama/Mystery film.</div>
+              </div>
+              <div class="media-carousel">
+              <img src="M3.jpg" alt="hero carousel" width="200" height="250" />
+              <div class="overlay"><b class="movie-title">Pushpa: The Rise</b><br />Action/Drama film.</div>
+              </div>
+              <div class="media-carousel">
+              <img src="M4.webp" alt="hero carousel" width="200" height="250" />
+              <div class="overlay"><b class="movie-title">RRR</b><br />Action/Drama film.</div>
+              </div>
+              <div class="media-carousel">
+              <img src="M5.jpg" alt="hero carousel" width="200" height="250" />
+              <div class="overlay"><b class="movie-title">Heropanti 2</b><br />Action/Romance film.</div>
+              </div>
+              <div class="media-carousel">
+              <img src="M6.jpg" alt="hero carousel" width="200" height="250" />
+              <div class="overlay"><b class="movie-title">Bachchhan Paandey</b><br />Action/Comedy film.</div>
+              </div>
+              </div>
+              </div>
+              
+                <!-- Popular in Drama Section -->
+      
+              <div id="media-holder-drama">
+              <div class="popular-heading">
+              <h2>Popular in Drama</h2></div>
+          
+              <div id="image-container-drama">
+              <div class="movies-drama">
+              <div class="media-carousel">
+              <img src="dm1.jpg" alt="hero carousel" width="200" height="250" />
+              <div class="overlay"><b class="movie-title">Shiddat</b><br />2021 ‧ Romantic/Drama film.</div>
+              </div> 
+              <div class="media-carousel">
+              <img src="dm2.jpg" alt="hero carousel" width="200" height="250" />
+              <div class="overlay"><b class="movie-title">Shershaah</b><br />2021 Action/Drama film.</div>
+              </div>
+              <div class="media-carousel">
+              <img src="dm3.jpg" alt="hero carousel" width="200" height="250" />
+              <div class="overlay"><b class="movie-title">Gangubai Kathiawadi</b><br />2022 Crime/Drama film.</div>
+              </div>
+              <div class="media-carousel">
+              <img src="dm4.jpg" alt="hero carousel" width="200" height="250" />
+              <div class="overlay"><b class="movie-title">83</b><br />2022 Drama/Sport film.</div>
+              </div>
+              <div class="media-carousel">
+              <img src="dm5.jpg" alt="hero carousel" width="200" height="250" />
+              <div class="overlay"><b class="movie-title">Dil Bechara</b><br />2020 Romance/Drama film.</div>
+              </div>
+              <div class="media-carousel">
+              <img src="dm6.jpg" alt="hero carousel" width="200" height="250" />
+              <div class="overlay"><b class="movie-title">Gully Boy</b><br />2019 Musical/Drama film.</div>
+              </div>
+              </div>
+              </div>
+              </div>
+
+                <!-- Popular in Scifi Section -->
+
+            <div id="media-holder-scifi">
+            <div class="popular-heading">
+            <h2>Popular in Sci-Fi</h2>
+            </div>
+            <div id="image-container-scifi">
+            <div class="movies-scifi">
+            <div class="media-carousel">
+            <img src="sf1.jpg" alt="hero carousel" width="200" height="250" />
+            <div class="overlay"><b class="movie-title">Godzilla vs. Kong</b><br />2021 Sci-fi/Action.</div>
+            </div>
+            <div class="media-carousel">
+            <img src="sf2.jpg" alt="hero carousel" width="200" height="250" />
+            <div class="overlay"><b class="movie-title">Venom: Let There Be Carnage</b><br />2021 Action/Sci-fi. eravel.</div>
+            </div>
+            <div class="media-carousel">
+            <img src="sf3.jpg" alt="hero carousel" width="200" height="250" />
+            <div class="overlay"><b class="movie-title">Spider-Man: No Way Home</b><br />2021 Action/Adventure.</div>
+            </div>
+            <div class="media-carousel">
+            <img src="sf4.jpg" alt="hero carousel" width="200" height="250" />
+            <div class="overlay"><b class="movie-title">Black Widow</b><br />2021 Action/Adventure.</div>
+            </div>
+            <div class="media-carousel">
+            <img src="sf6.jpg" alt="hero carousel" width="200" height="250" />
+            <div class="overlay"><b class="movie-title">The Matrix Resurrections</b><br />2021 Sci-fi/Action.</div>
+            </div>
+            <div class="media-carousel">
+            <img src="sf7.jpg" alt="hero carousel" width="200" height="250" />
+            <div class="overlay"><b class="movie-title">Dune</b><br />2021 ‧ Sci-fi/Adventure.</div>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+    <div id="no-results">No Results Found.</div> 
+  </div>
+    
+    </div>
+    </div>
+    </div>
+  </div>
+    <footer>
+    <div class="copyright">
+        <img src="logo.jpg" alt="Loading Image" class="mainlogo" />
+        <p>Powered by 365 Entertainment Portal 2019. All Rights Reserved.</p>
+    </div>
+</footer>
+<script type="text/javascript" src="365.js"></script>
+
+  </body>
+  </html>
